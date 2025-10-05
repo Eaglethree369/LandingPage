@@ -25,4 +25,17 @@ a {
     justify-content: space-between;
 }
 
-  
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+}
