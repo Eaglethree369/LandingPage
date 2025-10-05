@@ -2,25 +2,27 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  a {
+a {
     text-decoration: none;
-  }
+}
 
-  .links {
-    
-  }
-
-  .links ul {
+.links ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-  }
+}
 
-  .header {
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
     display: flex;
     align-items: center;
-  }
+    justify-content: space-between;
+}
 
   
