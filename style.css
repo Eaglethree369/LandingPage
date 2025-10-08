@@ -33,9 +33,29 @@ a {
 
 .one {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.block {
+.section.one .block {
     display: flex;
+    margin: auto;
+    gap: 20px;
+}
+
+.two {
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
